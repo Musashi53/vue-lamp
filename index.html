@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Lamp</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__content container">
+        <div class="header__menu">
+          <img class="menu" src="./assets/images/menu.png" alt="">
+          <img class="logo" src="./assets/images/logo.png" alt="logo">
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="#latest">Latest</a></li>
+            <li><a href="#modern">Modern</a></li>
+            <li><a href="#contemporany">Contemporary</a></li>
+            <li><a href="#affordable">Affordable</a></li>
+          </ul>
+          <button class="button" onclick="toggleButton()" id="button"><span class="circle"></span></button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="home__container container">
+        <div class="home__lamp">
+          <img class="lamp__img" src="./assets/images/lamp.png" alt="lamp">
+          <img class="light__img" src="./assets/images/light.png" alt="light_lamp" id="light">
+        </div>
+        <div class="home__content">
+          <h1 class="title">Latest<br/> in Lighting</h1>
+          <p class="description">
+            This is the first lamp form our company. We're making a huge collection of modern Lamps in all catagories from home use to office use.
+          </p>
+          <button class="button__home">Check All Collections</button>
+        </div>
+      </div>
+      
+    </section>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
