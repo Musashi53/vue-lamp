@@ -117,6 +117,8 @@ ul {
 
 .home__container {
   display: flex;
+  height: 800px;
+  align-items: center;
 }
 
 .home__lamp {
@@ -126,17 +128,17 @@ ul {
 }
 
 .lamp__img {
-  width: 200px;
+  width: 240px;
   position: absolute;
   top: 0;
-  right: 65%;
+  right: 64%;
 }
 
 .light__img {
   position: absolute;
-  top: 40%;
-  right: 52.5%;
-  width: 700px;
+  top: 48%;
+  right: 50%;
+  width: 800px;
   opacity: 0;
   transition: .3s;
 }
