@@ -7,26 +7,52 @@
     <title>Vue Lamp</title>
 
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
   </head>
 
   <body>
     <header class="header">
-      <div class="header__content container">
-        <div class="header__menu">
+      <div class="header__container container">  
+        <div class="header__logo">
           <img class="menu" src="./assets/images/menu.png" alt="">
           <img class="logo" src="./assets/images/logo.png" alt="logo">
         </div>
         <nav class="nav">
           <ul class="nav__list">
-            <li><a href="#latest">Latest</a></li>
-            <li><a href="#modern">Modern</a></li>
-            <li><a href="#contemporany">Contemporary</a></li>
-            <li><a href="#affordable">Affordable</a></li>
+            <li class="nav__item">
+              <a href="#latest">Latest</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#modern">Modern</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contemporany">Contemporary</a>
+            </li>
+            
+            <li class="nav__item">
+              <a href="#affordable">Affordable</a>
+            </li>
           </ul>
-          <button class="button" onclick="toggleButton()" id="button"><span class="circle"></span></button>
+
+          <a class="nav__close" href="#" onclick="navToggle()">
+            <i class="ri-close-line"></i>
+          </a>
         </nav>
+        <div class="header__buttons">
+          <button class="header__button" onclick="lightButton()" id="button">
+            <span class="circle"></span>
+          </button>
+
+          <a class="header__toggle" href="#" onclick="navToggle()">
+            <i class="ri-menu-line"></i>
+          </a>
+        </div>
+        
       </div>
+      
     </header>
 
     <section class="home">
@@ -43,7 +69,6 @@
           <button class="button__home">Check All Collections</button>
         </div>
       </div>
-      
     </section>
 
     <script src="./assets/js/index.js"></script>
