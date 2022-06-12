@@ -11,3 +11,12 @@ const nav = document.querySelector('.nav');
 function navToggle() {
   nav.classList.toggle('open-nav');
 }
+
+const scrollReveal = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: 2500,
+  delay: 400,
+});
+
+scrollReveal.reveal(`.home__container`);

@@ -203,9 +203,7 @@ ul {
 }
 
 @media screen and (min-width: 568px) {
-  .lamp__img {
-    margin-left: 1rem;
-  }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -247,6 +245,10 @@ ul {
     width: 50%;
   }
 
+  .lamp__img {
+    margin-left: .8rem;
+  }
+
   .home__content {
     width: 50%;
   }
@@ -259,6 +261,12 @@ ul {
 @media screen and (min-width: 968px) {
   .nav {
     width: 600px;
+  }
+}
+
+@media screen and (min-width: 1168px) {
+  .lamp__img {
+    margin-left: 1.25rem;
   }
 }
 
