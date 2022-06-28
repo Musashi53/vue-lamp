@@ -69,6 +69,7 @@ ul {
   background-color: var(--main-color);
   border-radius: 1rem 0 0 1rem;
   padding: 6rem 0 0 3rem;
+  z-index: 100;
 }
 
 .open-nav {
